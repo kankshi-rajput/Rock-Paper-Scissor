@@ -1,0 +1,69 @@
+.body{
+    background-color: #FFFDD0;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+  }
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+.heading{
+    flex: 1;
+  }
+.options{
+    display: flex;
+    justify-content: center;
+  }
+.button{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.button img{
+    width: 150px;
+    flex: 0.5;
+  }
+.button:hover{
+    cursor: pointer;
+  }
+.scoreboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+.scoreboard p{
+    display: block;
+    font-size: 30px;
+    margin-top: 80px;
+    padding: 0 40px;
+  }
+#score-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+#score-container div{
+    font-size: 50px;
+    padding: 0px 60px;
+  }
+.result{
+    padding: 20px 0px;
+    text-align:center;
+  }
+.retrybtn:hover{
+    cursor: pointer;
+  }
+.retrybtn{
+    padding: 10px 10px;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #FFFDD0;
+  }
+.retry{
+    text-align:center;
+    margin: auto;
+  }
